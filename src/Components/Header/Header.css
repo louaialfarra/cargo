@@ -2,8 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem 5rem;
+  padding: 2rem 5rem;
   position: absolute;
+  width: 100%;
+  box-sizing: border-box;
 }
 .menuList ul {
   display: flex;

@@ -5,7 +5,11 @@ const Hero = () => {
   return (
     <div className="heroContainer">
       <Header />
-      <p>hello Hero</p>
+      <div className="caption">
+        <h1>"Your Shippment is our Priority"</h1>
+        <button>Call to Action</button>
+      </div>
+      <div>hello Hero</div>
     </div>
   );
 };
