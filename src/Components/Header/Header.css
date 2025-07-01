@@ -1,0 +1,14 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 5rem;
+  position: absolute;
+}
+.menuList ul {
+  display: flex;
+  gap: 18px;
+}
+.menuList ul li {
+  list-style: none;
+}

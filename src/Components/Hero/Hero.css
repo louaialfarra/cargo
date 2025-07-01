@@ -1,0 +1,12 @@
+.heroContainer {
+  background-color: red;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../assets/Hero.png);
+  height: 100vh;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
