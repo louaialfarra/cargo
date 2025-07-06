@@ -6,10 +6,9 @@ const Hero = () => {
     <div className="heroContainer">
       <Header />
       <div className="caption">
-        <h1>"Your Shippment is our Priority"</h1>
+        <h1>Your Cargo, Our Priority. Request a Free Consultation.</h1>
         <button>Call to Action</button>
       </div>
-      <div>hello Hero</div>
     </div>
   );
 };

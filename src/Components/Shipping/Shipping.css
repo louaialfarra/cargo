@@ -1,0 +1,72 @@
+.shippingContainer {
+  height: 100vh;
+}
+.shippingContainer .shippingTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+}
+.shippingContainer .shippingTitle h1 {
+  margin-block: 1em;
+}
+
+.swip {
+  width: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 550px;
+  position: relative;
+}
+
+.swiper-slide img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 28px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+.swiper-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* semi-transparent*/
+  border-radius: 28px;
+}
+.swiper-slide-shadow-right,
+.swiper-slide-shadow-left {
+  border-radius: 28px;
+}
+.cardText {
+  z-index: 5;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.cardDesc {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 2em;
+  text-align: center;
+  color: white;
+  z-index: 999;
+}
+.swiper-pagination-bullet {
+  opacity: 1;
+  background-color: rgb(50, 50, 50);
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: lightgray;
+}

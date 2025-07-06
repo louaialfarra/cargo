@@ -33,3 +33,7 @@
   background-origin: border-box;
   */
 }
+.caption h1 {
+  font-family: "Inria sans";
+  font-style: italic;
+}
