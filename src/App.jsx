@@ -5,6 +5,8 @@ import "./App.css";
 import Hero from "./Components/Hero/Hero";
 import Shipping from "./Components/Shipping/Shipping";
 import Global from "./Components/GlobalShipping/Global";
+import Map from "./Components/Map/Map";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Hero />
       <Shipping />
       <Global />
+      <Map />
+      <Contact />
     </>
   );
 }

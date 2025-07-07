@@ -1,0 +1,7 @@
+.mapTitle {
+  display: flex;
+  justify-content: center;
+}
+.mapView {
+  height: 70vh;
+}
