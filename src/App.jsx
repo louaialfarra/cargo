@@ -7,6 +7,7 @@ import Shipping from "./Components/Shipping/Shipping";
 import Global from "./Components/GlobalShipping/Global";
 import Map from "./Components/Map/Map";
 import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Global />
       <Map />
       <Contact />
+      <Footer />
     </>
   );
 }

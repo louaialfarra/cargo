@@ -1,4 +1,8 @@
 .contactContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.contactContainerP {
   height: 100vh;
 }
 
@@ -6,11 +10,29 @@
   display: flex;
   justify-content: center;
 }
-
+.emailContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
 .emailContainer textarea {
   height: 200px;
   width: 400px;
 }
-.contactContainer input {
-  margin-left: 18px;
+.facebook {
+  background-color: red;
+  background-image: url(../../../public/assets/Facebook.png);
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+}
+.insta {
+  background-image: url(../../../public/assets/Instagram.png);
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+}
+.rightSide {
+  display: flex;
+  gap: 8px;
 }
