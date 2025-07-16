@@ -2,11 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 5rem;
-  position: absolute;
-  width: 100%;
+  padding: 2rem 0px;
   box-sizing: border-box;
+  z-index: 55555;
+  width: 1024px;
+  position: fixed;
 }
+
 .menuList ul {
   display: flex;
   gap: 18px;

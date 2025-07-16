@@ -12,6 +12,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 html {
   scroll-behavior: smooth;
 }

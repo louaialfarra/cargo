@@ -7,6 +7,7 @@ const Header = () => {
         <div className="logo">
           <a href="#">Logo Here</a>
         </div>
+
         <div className="menuList">
           <ul>
             <li>

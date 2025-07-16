@@ -1,14 +1,21 @@
 .heroContainer {
-  background-color: red;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../../assets/Hero.png);
   height: 100vh;
-  width: 100%;
-  object-position: center;
-  object-fit: cover;
   background-position: center;
   background-size: cover;
   position: relative;
+}
+
+.menuList ul {
+  display: flex;
+  gap: 18px;
+}
+.menuList ul li {
+  list-style: none;
+}
+.menuList ul li a {
+  color: inherit;
 }
 
 .caption {
@@ -16,8 +23,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  transform: translateY();
+  position: absolute;
+  bottom: 25%;
+  right: 50%;
+  transform: translateX(50%);
+  width: 100%;
 }
 .caption button {
   cursor: pointer;

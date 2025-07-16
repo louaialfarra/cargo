@@ -1,6 +1,6 @@
 .shippingContainer {
-  height: 100vh;
 }
+
 .shippingContainer .shippingTitle {
   display: flex;
   justify-content: center;
@@ -62,6 +62,7 @@
   color: white;
   z-index: 999;
 }
+/*
 .swiper-pagination-bullet {
   opacity: 1;
   background-color: rgb(50, 50, 50);
@@ -70,3 +71,4 @@
   opacity: 1;
   background-color: lightgray;
 }
+*/
