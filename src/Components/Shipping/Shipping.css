@@ -12,17 +12,16 @@
 }
 
 .swip {
-  width: 100%;
 }
 
+.swiper {
+}
 .swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 400px;
-  height: 550px;
+  width: 350px;
+  height: 450px;
   position: relative;
 }
-
+/* this is for the black filter */
 .swiper-slide img {
   object-fit: cover;
   width: 100%;
@@ -30,6 +29,7 @@
   border-radius: 28px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
 }
+/* for bakc filter for the text too*/
 .swiper-slide::before {
   content: "";
   position: absolute;
@@ -40,6 +40,7 @@
   background: rgba(0, 0, 0, 0.4); /* semi-transparent*/
   border-radius: 28px;
 }
+
 .swiper-slide-shadow-right,
 .swiper-slide-shadow-left {
   border-radius: 28px;

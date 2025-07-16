@@ -3,7 +3,7 @@
   justify-content: space-around;
 }
 .contactContainerP {
-  height: 100vh;
+  padding-bottom: 1em;
 }
 
 .contactTitle {

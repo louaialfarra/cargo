@@ -8,7 +8,7 @@ const Map = () => {
     <>
       <div className="mapContainer">
         <div className="mapTitle">
-          <h2>Our Location</h2>
+          <h1>Our Location</h1>
         </div>
         <div className="mapView">
           <MapContainer

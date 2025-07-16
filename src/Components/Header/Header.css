@@ -2,11 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0px;
   box-sizing: border-box;
   z-index: 55555;
   width: 1024px;
   position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 0px 0px 12px 12px;
+  backdrop-filter: blur(20px);
+  top: 24px;
+  padding: 8px 24px;
 }
 
 .menuList ul {

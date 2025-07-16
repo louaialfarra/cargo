@@ -23,6 +23,9 @@ function App() {
       <Hero />
       <Shipping />
       <Global />
+      <Map />
+      <Contact />
+      <Footer />
     </>
   );
 }
