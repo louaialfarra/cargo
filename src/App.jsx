@@ -8,7 +8,6 @@ import Global from "./Components/GlobalShipping/Global";
 import Map from "./Components/Map/Map";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
-import Test from "./Components/Test/Test";
 
 function App() {
   /* continue notes 
@@ -30,7 +29,6 @@ function App() {
   */
   return (
     <>
-      <Test />
       <Hero />
       <Shipping />
       <Global />
