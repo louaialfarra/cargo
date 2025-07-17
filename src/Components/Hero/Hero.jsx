@@ -5,7 +5,7 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <div className="heroContainer">
-      <div className="wrapper">
+      <div className="wrapper hero-wrapper">
         <Header />
         <div className="caption">
           <h1>Your Cargo, Our Priority. Request a Free Consultation.</h1>

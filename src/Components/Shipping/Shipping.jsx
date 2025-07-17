@@ -61,9 +61,10 @@ const Shipping = () => {
                   <h1>SEA</h1>
                 </div>
                 <div className="cardDesc">
-                  A large cargo ship navigates the ocean, loaded with
-                  containers.
-                  <p></p>
+                  <p>
+                    A large cargo ship navigates the ocean, loaded with
+                    containers.
+                  </p>
                 </div>
               </div>
               <img src="./assets/sea.png" />

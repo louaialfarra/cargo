@@ -1,6 +1,7 @@
 .contactContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  gap: 8px;
 }
 .contactContainerP {
   padding-bottom: 1em;
@@ -17,7 +18,7 @@
 }
 .emailContainer textarea {
   height: 200px;
-  width: 400px;
+  width: auto;
 }
 .facebook {
   background-color: red;
@@ -32,7 +33,13 @@
   width: 100px;
   background-size: cover;
 }
+.leftSide {
+  flex: 1;
+}
 .rightSide {
+  padding-top: 32px;
+  flex: 1;
   display: flex;
   gap: 8px;
+  justify-content: flex-end;
 }

@@ -40,43 +40,45 @@ const Contact = () => {
   return (
     <>
       <div className="contactContainerP" id="idmail">
-        <div className="contactTitle">
-          <h1>Contact Us</h1>
-        </div>
-        <div className="contactContainer">
-          <div className="leftSide">
-            <form onSubmit={sendEmail}>
-              <div className="emailContainer">
-                Name:
-                <input
-                  type="text"
-                  placeholder="name"
-                  onChange={handleChange}
-                  name="from_name"
-                />
-                Enter Your Email:
-                <input
-                  type="text"
-                  name="reply_to"
-                  placeholder="Enter ur Email"
-                  onChange={handleChange}
-                />
-                Massage:
-                <textarea
-                  placeholder="Ask any Quesiotn"
-                  name="message"
-                  onChange={handleChange}
-                />
-              </div>
-
-              <button type="submite" disabled={isFormIncomplete}>
-                Submite
-              </button>
-            </form>
+        <div className="wrapper">
+          <div className="contactTitle">
+            <h1>Contact Us</h1>
           </div>
-          <div className="rightSide">
-            <div className="facebook"></div>
-            <div className="insta"></div>
+          <div className="contactContainer">
+            <div className="leftSide">
+              <form onSubmit={sendEmail}>
+                <div className="emailContainer">
+                  Name:
+                  <input
+                    type="text"
+                    placeholder="name"
+                    onChange={handleChange}
+                    name="from_name"
+                  />
+                  Enter Your Email:
+                  <input
+                    type="text"
+                    name="reply_to"
+                    placeholder="Enter ur Email"
+                    onChange={handleChange}
+                  />
+                  Massage:
+                  <textarea
+                    placeholder="Ask any Quesiotn"
+                    name="message"
+                    onChange={handleChange}
+                  />
+                </div>
+
+                <button type="submite" disabled={isFormIncomplete}>
+                  Submite
+                </button>
+              </form>
+            </div>
+            <div className="rightSide">
+              <div className="facebook"></div>
+              <div className="insta"></div>
+            </div>
           </div>
         </div>
       </div>

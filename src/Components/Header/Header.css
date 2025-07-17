@@ -23,3 +23,9 @@
 .menuList ul li a {
   color: inherit;
 }
+
+@media (max-width: 1024px) {
+  .headerContainer {
+    width: 700px;
+  }
+}

@@ -17,7 +17,10 @@
 .menuList ul li a {
   color: inherit;
 }
-
+.hero-wrapper {
+  position: relative;
+  height: 100%;
+}
 .caption {
   flex-direction: column;
   display: flex;
@@ -28,6 +31,7 @@
   right: 50%;
   transform: translateX(50%);
   width: 100%;
+  text-align: center;
 }
 .caption button {
   cursor: pointer;

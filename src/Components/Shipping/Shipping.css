@@ -73,3 +73,21 @@
   background-color: lightgray;
 }
 */
+@media (max-width: 1024px) {
+  .swiper-slide {
+    width: 250px;
+    height: 350px;
+  }
+}
+@media (max-width: 720px) {
+  .swiper-slide {
+    width: 150px;
+    height: 250px;
+  }
+  h1 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 0.6em;
+  }
+}
