@@ -6,7 +6,7 @@ import "leaflet/dist/leaflet.css";
 const Map = () => {
   return (
     <>
-      <div className="mapContainer">
+      <div id="location" className="mapContainer">
         <div className="mapTitle">
           <h1>Our Location</h1>
         </div>
