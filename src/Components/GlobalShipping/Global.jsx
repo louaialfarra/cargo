@@ -14,7 +14,7 @@ const Global = () => {
             </p>
           </div>
           <div className="globalImage">
-            <img src="./assets/global.png" />
+            <img src="./assets/global.webp" />
           </div>
         </div>
       </div>

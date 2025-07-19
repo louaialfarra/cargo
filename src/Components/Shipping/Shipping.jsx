@@ -42,7 +42,7 @@ const Shipping = () => {
                   </p>
                 </div>
               </div>
-              <img src="./assets/truck.png" />
+              <img src="./assets/truck.webp" />
             </SwiperSlide>
             <SwiperSlide className="swipSlide">
               <div className="cardText">
@@ -53,7 +53,7 @@ const Shipping = () => {
                   <p>A cargo plane soars through the sky, carrying goods. </p>
                 </div>
               </div>
-              <img src="./assets/air.png" />
+              <img src="./assets/air.webp" />
             </SwiperSlide>
             <SwiperSlide className="swipSlide">
               <div className="cardText">
@@ -67,7 +67,7 @@ const Shipping = () => {
                   </p>
                 </div>
               </div>
-              <img src="./assets/sea.png" />
+              <img src="./assets/sea.webp" />
             </SwiperSlide>
           </Swiper>
         </div>
