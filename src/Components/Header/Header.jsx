@@ -9,7 +9,7 @@ const Header = () => {
       <div className="headerContainer">
         <div className="logo">
           <a href="#">
-            Logo <span style={{ color: "red", fontWeight: "800" }}>Here</span>
+            Logoo <span style={{ color: "red", fontWeight: "800" }}>Here</span>
           </a>
         </div>
 

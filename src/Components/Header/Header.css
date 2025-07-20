@@ -13,6 +13,9 @@
   padding: 8px 24px;
 }
 
+.logo a {
+  color: white;
+}
 .menuList ul {
   display: flex;
   gap: 18px;
