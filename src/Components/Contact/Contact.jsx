@@ -69,10 +69,11 @@ const Contact = () => {
                     onChange={handleChange}
                   />
                 </div>
-
-                <button type="submite" disabled={isFormIncomplete}>
-                  Submite
-                </button>
+                <div className="button-sub">
+                  <button type="submite" disabled={isFormIncomplete}>
+                    Submite
+                  </button>
+                </div>
               </form>
             </div>
             <div className="rightSide">

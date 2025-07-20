@@ -9,7 +9,7 @@ const Hero = () => {
         <Header />
         <div className="caption">
           <h1>Your Cargo, Our Priority. Request a Free Consultation.</h1>
-          <button>Call to Action</button>
+          <button>Request Consultation</button>
         </div>
       </div>
     </div>
