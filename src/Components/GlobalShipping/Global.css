@@ -2,7 +2,7 @@
   display: flex;
   padding-top: 5em;
   justify-content: space-between;
-  gap: 6rem;
+  gap: 4rem;
 }
 .globalText {
   flex: 1;
@@ -22,5 +22,10 @@
 @media (max-width: 1024px) {
   .globalText {
     line-height: 2.2em;
+  }
+}
+@media (max-width: 700px) {
+  .globalText {
+    line-height: 1.2em;
   }
 }
